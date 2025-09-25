@@ -1,4 +1,3 @@
-# src/simulate.py
 import numpy as np
 from qutip import basis, tensor, sigmaz, sigmax, mesolve, qeye
 

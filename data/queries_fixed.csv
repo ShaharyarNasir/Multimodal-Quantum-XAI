@@ -1,0 +1,597 @@
+query,num_qubits,max_time,num_points,epochs,decoherence_rate
+Predict correlation for 2 qubits over 10 time,2,10,100,2000,0.05
+Explore 2 qubit dynamics with 0.0 decoherence for 15 units,2,15,100,100,0.0
+Analyze entanglement in 2 qubits with 0.0 noise,2,10,100,500,0.0
+Test 6 qubits superposition for 15 time steps,6,15,100,500,0.05
+Generate 6 qubit expectation values from 0 to 12,6,8,100,1500,0.1
+Test 4-qubit quantum dynamics with 0.02 rate,2,5,100,1500,0.08
+Compute 4 qubit NN proxy with 1000 epochs,4,15,100,2000,0.0
+Predict correlation for 2 qubits over 12 time,2,12,100,500,0.1
+Simulate linear 6-qubit Hamiltonian for 10 time,2,10,100,1000,0.08
+Generate data for 2 qubits from t=0 to 12,2,5,100,1500,0.08
+Visualize 6 qubit SHAP analysis over 10 units,6,10,100,1500,0.08
+Run 2-qubit chain for 8 time units,2,8,100,1000,0.1
+Test 2 qubits superposition for 12 time steps,2,12,100,500,0.05
+Simulate linear 3-qubit Hamiltonian for 10 time,6,10,100,2000,0.05
+Model 2-qubit bit-flip channel at 0.02 for 15 time,5,15,100,2000,0.05
+Test 3 qubits superposition for 12 time steps,3,12,100,2000,0.08
+Generate data for 3 qubits from t=0 to 10,3,5,100,2000,0.02
+Analyze 4 qubits with decoherence 0.05,4,12,100,500,0.08
+Generate 6 qubit expectation values from 0 to 10,6,12,100,1500,0.08
+Run 5 qubits with magnetic field over 8 units,5,8,100,1500,0.05
+Analyze entanglement in 6 qubits with 0.05 noise,6,10,100,500,0.05
+Explore 6 qubit dynamics with 0.0 decoherence for 12 units,6,12,100,100,0.0
+Predict correlation for 3 qubits over 8 time,3,8,100,1000,0.02
+Run 5-qubit chain for 12 time units,6,12,100,2000,0.1
+Simulate 4-qubit correlations at 0.0 decoherence,6,10,100,100,0.0
+Generate data for 4 qubits from t=0 to 10,4,12,100,100,0.05
+Analyze entanglement in 3 qubits with 0.0 noise,3,10,100,1000,0.0
+Simulate 3-qubit correlations at 0.0 decoherence,6,15,100,500,0.0
+Simulate 6-qubit correlations at 0.02 decoherence,5,8,100,100,0.02
+Simulate 6-qubit Ising model with rate 0.0,6,10,100,100,0.05
+Compute 5 qubit NN proxy with 1000 epochs,5,8,100,1500,0.1
+Visualize 3 qubit SHAP analysis over 5 units,3,5,100,2000,0.0
+Run 2-qubit chain for 12 time units,6,12,100,100,0.02
+Explore 3 qubit dynamics with 0.1 decoherence for 12 units,3,12,100,1000,0.1
+Model 6-qubit bit-flip channel at 0.08 for 15 time,2,15,100,500,0.1
+Predict 6-qubit observables for 12 time range,5,12,100,500,0.0
+Test 2 qubits superposition for 10 time steps,2,10,100,500,0.08
+Generate data for 3 qubits from t=0 to 15,3,12,100,1000,0.02
+Compute 2 qubit NN proxy with 1000 epochs,2,10,100,1000,0.1
+Explore 3 qubit evolution with 2000 training epochs,3,5,100,100,0.02
+Test 5-qubit quantum dynamics with 0.08 rate,3,15,100,100,0.0
+Generate 2 qubit expectation values from 0 to 5,2,12,100,1500,0.08
+Analyze entanglement in 5 qubits with 0.0 noise,5,12,100,1500,0.0
+Analyze 5 qubits with decoherence 0.0,5,15,100,100,0.05
+Generate 3 qubit expectation values from 0 to 15,3,5,100,1000,0.1
+Analyze entanglement in 3 qubits with 0.08 noise,3,15,100,1000,0.08
+Run 5-qubit chain for 15 time units,3,15,100,2000,0.0
+Generate data for 2 qubits from t=0 to 5,2,8,100,1000,0.02
+Analyze entanglement in 5 qubits with 0.02 noise,5,10,100,1000,0.02
+Analyze 3 qubits with decoherence 0.0,3,5,100,1500,0.08
+Model 5-qubit bit-flip channel at 0.08 for 10 time,3,10,100,1500,0.1
+Explore 3 qubit evolution with 500 training epochs,3,15,100,2000,0.05
+Analyze 6 qubits with decoherence 0.0,6,12,100,100,0.08
+Analyze 2 qubits with decoherence 0.08,2,12,100,100,0.05
+Simulate 3-qubit correlations at 0.1 decoherence,6,12,100,2000,0.1
+Simulate 2-qubit Ising model with rate 0.0,5,10,100,100,0.08
+Run 2 qubits with magnetic field over 15 units,2,15,100,500,0.1
+Model 2 qubit time series for 15 duration,2,10,100,100,0.08
+Test 6-qubit quantum dynamics with 0.05 rate,2,8,100,1500,0.1
+Generate 4 qubit expectation values from 0 to 8,4,15,100,100,0.08
+Explore 4 qubit dynamics with 0.05 decoherence for 12 units,4,12,100,500,0.05
+Simulate 5 qubit entanglement,5,5,100,2000,0.0
+Run 6-qubit chain for 8 time units,6,8,100,500,0.05
+Explore 4 qubit dynamics with 0.02 decoherence for 5 units,4,5,100,500,0.02
+Visualize 3 qubit SHAP analysis over 12 units,3,12,100,500,0.02
+Model 6 qubit time series for 5 duration,6,8,100,100,0.02
+Predict correlation for 3 qubits over 10 time,3,10,100,2000,0.1
+Explore 4 qubit evolution with 1500 training epochs,4,15,100,2000,0.05
+Model 2-qubit bit-flip channel at 0.05 for 5 time,4,5,100,1500,0.0
+Model 3-qubit bit-flip channel at 0.1 for 12 time,5,12,100,1000,0.05
+Generate data for 2 qubits from t=0 to 10,2,5,100,1000,0.1
+Explore 5 qubit dynamics with 0.0 decoherence for 8 units,5,8,100,1500,0.0
+Simulate linear 2-qubit Hamiltonian for 10 time,2,10,100,1000,0.05
+Predict correlation for 4 qubits over 15 time,4,15,100,2000,0.1
+Explore 3 qubit dynamics with 0.02 decoherence for 8 units,3,8,100,1500,0.02
+Simulate 3 qubit entanglement,3,5,100,1500,0.1
+Model 3-qubit bit-flip channel at 0.08 for 5 time,3,5,100,2000,0.08
+Explore 3 qubit evolution with 1000 training epochs,3,8,100,100,0.08
+Visualize 3 qubit SHAP analysis over 8 units,3,8,100,100,0.1
+Run 4 qubits with magnetic field over 10 units,4,10,100,500,0.08
+Simulate linear 6-qubit Hamiltonian for 12 time,5,12,100,2000,0.1
+Simulate 2 qubit entanglement,2,10,100,1000,0.05
+Model 2-qubit bit-flip channel at 0.1 for 5 time,5,5,100,1000,0.1
+Simulate linear 4-qubit Hamiltonian for 12 time,2,12,100,100,0.05
+Predict correlation for 5 qubits over 15 time,5,15,100,1500,0.05
+Analyze 5 qubits with decoherence 0.1,5,15,100,500,0.05
+Generate 4 qubit expectation values from 0 to 12,4,15,100,500,0.05
+Model 4 qubit time series for 5 duration,4,12,100,500,0.1
+Visualize 5 qubit SHAP analysis over 10 units,5,10,100,2000,0.08
+Generate data for 3 qubits from t=0 to 8,3,8,100,2000,0.0
+Simulate 6-qubit Ising model with rate 0.05,5,15,100,1000,0.0
+Predict 5-qubit observables for 8 time range,4,8,100,500,0.02
+Simulate 2-qubit Ising model with rate 0.1,4,12,100,500,0.02
+Compute 2 qubit NN proxy with 500 epochs,2,8,100,100,0.05
+Generate 3 qubit expectation values from 0 to 5,3,15,100,2000,0.1
+Explore 6 qubit evolution with 1500 training epochs,6,10,100,2000,0.02
+Test 3-qubit quantum dynamics with 0.08 rate,6,12,100,500,0.02
+Test 3 qubits superposition for 5 time steps,3,5,100,500,0.08
+Test 3 qubits superposition for 15 time steps,3,15,100,1000,0.02
+Generate data for 3 qubits from t=0 to 5,3,15,100,1000,0.08
+Predict 6-qubit observables for 15 time range,3,15,100,500,0.05
+Predict 3-qubit observables for 12 time range,5,12,100,1000,0.1
+Test 4 qubits superposition for 15 time steps,4,15,100,1000,0.08
+Model 5-qubit bit-flip channel at 0.05 for 5 time,6,5,100,1500,0.02
+Model 4-qubit bit-flip channel at 0.1 for 10 time,3,10,100,500,0.05
+Explore 3 qubit dynamics with 0.08 decoherence for 8 units,3,8,100,1000,0.08
+Generate 2 qubit expectation values from 0 to 12,2,15,100,100,0.05
+Generate data for 5 qubits from t=0 to 12,5,8,100,1000,0.08
+Run 5 qubits with magnetic field over 5 units,5,5,100,1500,0.0
+Run 5 qubits with magnetic field over 15 units,5,15,100,1000,0.0
+Test 5 qubits superposition for 8 time steps,5,8,100,1500,0.1
+Explore 2 qubit evolution with 1500 training epochs,2,8,100,1500,0.0
+Simulate 5-qubit Ising model with rate 0.1,4,8,100,100,0.05
+Run 5-qubit chain for 8 time units,2,8,100,500,0.02
+Predict 4-qubit observables for 10 time range,2,10,100,1500,0.02
+Analyze entanglement in 4 qubits with 0.08 noise,4,12,100,2000,0.08
+Analyze 2 qubits with decoherence 0.02,2,5,100,1000,0.02
+Model 3 qubit time series for 8 duration,3,15,100,2000,0.1
+Predict correlation for 6 qubits over 8 time,6,8,100,1000,0.02
+Simulate linear 3-qubit Hamiltonian for 15 time,4,15,100,100,0.02
+Simulate 4-qubit Ising model with rate 0.1,5,15,100,1500,0.0
+Visualize 6 qubit SHAP analysis over 12 units,6,12,100,2000,0.1
+Generate data for 5 qubits from t=0 to 10,5,15,100,2000,0.02
+Compute 2 qubit NN proxy with 100 epochs,2,10,100,1500,0.0
+Analyze entanglement in 4 qubits with 0.02 noise,4,10,100,500,0.02
+Simulate 6-qubit Ising model with rate 0.1,5,8,100,100,0.1
+Explore 5 qubit evolution with 1000 training epochs,5,5,100,2000,0.1
+Compute 3 qubit NN proxy with 1500 epochs,3,15,100,2000,0.0
+Test 5 qubits superposition for 15 time steps,5,15,100,100,0.08
+Model 6-qubit bit-flip channel at 0.1 for 10 time,4,10,100,100,0.05
+Simulate 3-qubit correlations at 0.02 decoherence,2,10,100,500,0.02
+Predict 2-qubit observables for 5 time range,6,5,100,500,0.0
+Run 3 qubits with magnetic field over 10 units,3,10,100,1000,0.02
+Visualize 4 qubit SHAP analysis over 8 units,4,8,100,500,0.02
+Generate 5 qubit expectation values from 0 to 10,5,12,100,100,0.05
+Test 4 qubits superposition for 8 time steps,4,8,100,500,0.0
+Generate data for 4 qubits from t=0 to 8,4,10,100,2000,0.08
+Simulate 6 qubit entanglement,6,12,100,1000,0.0
+Predict 4-qubit observables for 8 time range,3,8,100,1000,0.0
+Run 6-qubit chain for 5 time units,4,5,100,100,0.05
+Generate data for 5 qubits from t=0 to 15,5,12,100,1500,0.08
+Test 6 qubits superposition for 12 time steps,6,12,100,1500,0.08
+Generate 4 qubit expectation values from 0 to 5,4,15,100,1000,0.0
+Simulate 6-qubit Ising model with rate 0.02,5,5,100,1500,0.1
+Analyze entanglement in 5 qubits with 0.08 noise,5,15,100,1000,0.08
+Analyze 3 qubits with decoherence 0.05,3,5,100,1000,0.05
+Run 3-qubit chain for 10 time units,4,10,100,2000,0.08
+Analyze entanglement in 2 qubits with 0.02 noise,2,12,100,1000,0.02
+Model 3-qubit bit-flip channel at 0.0 for 5 time,2,5,100,2000,0.08
+Visualize 6 qubit SHAP analysis over 15 units,6,15,100,100,0.08
+Predict correlation for 5 qubits over 10 time,5,10,100,500,0.0
+Simulate 6-qubit correlations at 0.08 decoherence,3,15,100,1500,0.08
+Model 2 qubit time series for 12 duration,2,5,100,500,0.05
+Model 2-qubit bit-flip channel at 0.02 for 5 time,4,5,100,2000,0.0
+Test 2-qubit quantum dynamics with 0.1 rate,6,8,100,1500,0.05
+Simulate 5-qubit Ising model with rate 0.08,4,12,100,100,0.1
+Simulate 6-qubit Ising model with rate 0.08,3,15,100,1000,0.08
+Explore 4 qubit evolution with 1000 training epochs,4,10,100,500,0.0
+Visualize 5 qubit SHAP analysis over 15 units,5,15,100,1500,0.1
+Run 4-qubit chain for 10 time units,5,10,100,100,0.05
+Run 6 qubits with magnetic field over 5 units,6,5,100,500,0.1
+Analyze entanglement in 2 qubits with 0.1 noise,2,12,100,500,0.1
+Model 5 qubit time series for 12 duration,5,5,100,1500,0.02
+Model 6-qubit bit-flip channel at 0.05 for 8 time,5,8,100,1000,0.05
+Explore 2 qubit evolution with 500 training epochs,2,15,100,2000,0.05
+Simulate 4-qubit Ising model with rate 0.0,4,8,100,500,0.05
+Predict correlation for 3 qubits over 12 time,3,12,100,100,0.02
+Model 5-qubit bit-flip channel at 0.08 for 12 time,3,12,100,1500,0.0
+Predict 6-qubit observables for 8 time range,4,8,100,2000,0.05
+Model 6 qubit time series for 8 duration,6,15,100,500,0.1
+Analyze entanglement in 4 qubits with 0.05 noise,4,5,100,1000,0.05
+Visualize 4 qubit SHAP analysis over 15 units,4,15,100,1500,0.08
+Explore 5 qubit dynamics with 0.08 decoherence for 15 units,5,15,100,500,0.08
+Compute 6 qubit NN proxy with 1500 epochs,6,12,100,1500,0.1
+Test 5 qubits superposition for 5 time steps,5,5,100,2000,0.1
+Explore 6 qubit dynamics with 0.05 decoherence for 15 units,6,15,100,1500,0.05
+Predict 2-qubit observables for 15 time range,2,15,100,2000,0.02
+Model 4-qubit bit-flip channel at 0.08 for 15 time,4,15,100,500,0.05
+Generate data for 2 qubits from t=0 to 15,2,10,100,2000,0.05
+Predict correlation for 5 qubits over 8 time,5,8,100,500,0.1
+Simulate linear 5-qubit Hamiltonian for 8 time,4,8,100,1000,0.1
+Analyze entanglement in 6 qubits with 0.02 noise,6,5,100,2000,0.02
+Run 6-qubit chain for 12 time units,6,12,100,500,0.02
+Model 5-qubit bit-flip channel at 0.0 for 10 time,6,10,100,1000,0.1
+Visualize 6 qubit SHAP analysis over 8 units,6,8,100,100,0.0
+Test 4-qubit quantum dynamics with 0.0 rate,6,10,100,500,0.1
+Model 2-qubit bit-flip channel at 0.0 for 15 time,5,15,100,100,0.08
+Compute 5 qubit NN proxy with 500 epochs,5,10,100,1000,0.08
+Generate data for 4 qubits from t=0 to 15,4,12,100,1000,0.08
+Simulate 4-qubit Ising model with rate 0.05,2,5,100,500,0.08
+Predict correlation for 5 qubits over 5 time,5,5,100,1500,0.02
+Run 6 qubits with magnetic field over 10 units,6,10,100,500,0.05
+Simulate 4 qubit entanglement,4,10,100,1500,0.02
+Simulate linear 4-qubit Hamiltonian for 15 time,4,15,100,2000,0.0
+Predict 4-qubit observables for 12 time range,4,12,100,1500,0.0
+Predict correlation for 3 qubits over 15 time,3,15,100,500,0.02
+Predict 4-qubit observables for 15 time range,2,15,100,1000,0.08
+Explore 5 qubit dynamics with 0.08 decoherence for 5 units,5,5,100,500,0.08
+Generate 6 qubit expectation values from 0 to 5,6,15,100,1000,0.02
+Predict correlation for 2 qubits over 10 time,2,10,100,2000,0.05
+Explore 2 qubit dynamics with 0.0 decoherence for 15 units,2,15,100,100,0.0
+Analyze entanglement in 2 qubits with 0.0 noise,2,10,100,500,0.0
+Test 6 qubits superposition for 15 time steps,6,15,100,500,0.05
+Generate 6 qubit expectation values from 0 to 12,6,8,100,1500,0.1
+Test 4-qubit quantum dynamics with 0.02 rate,2,5,100,1500,0.08
+Compute 4 qubit NN proxy with 1000 epochs,4,15,100,2000,0.0
+Predict correlation for 2 qubits over 12 time,2,12,100,500,0.1
+Simulate linear 6-qubit Hamiltonian for 10 time,2,10,100,1000,0.08
+Generate data for 2 qubits from t=0 to 12,2,5,100,1500,0.08
+Visualize 6 qubit SHAP analysis over 10 units,6,10,100,1500,0.08
+Run 2-qubit chain for 8 time units,2,8,100,1000,0.1
+Test 2 qubits superposition for 12 time steps,2,12,100,500,0.05
+Simulate linear 3-qubit Hamiltonian for 10 time,6,10,100,2000,0.05
+Model 2-qubit bit-flip channel at 0.02 for 15 time,5,15,100,2000,0.05
+Test 3 qubits superposition for 12 time steps,3,12,100,2000,0.08
+Generate data for 3 qubits from t=0 to 10,3,5,100,2000,0.02
+Analyze 4 qubits with decoherence 0.05,4,12,100,500,0.08
+Generate 6 qubit expectation values from 0 to 10,6,12,100,1500,0.08
+Run 5 qubits with magnetic field over 8 units,5,8,100,1500,0.05
+Analyze entanglement in 6 qubits with 0.05 noise,6,10,100,500,0.05
+Explore 6 qubit dynamics with 0.0 decoherence for 12 units,6,12,100,100,0.0
+Predict correlation for 3 qubits over 8 time,3,8,100,1000,0.02
+Run 5-qubit chain for 12 time units,6,12,100,2000,0.1
+Simulate 4-qubit correlations at 0.0 decoherence,6,10,100,100,0.0
+Generate data for 4 qubits from t=0 to 10,4,12,100,100,0.05
+Analyze entanglement in 3 qubits with 0.0 noise,3,10,100,1000,0.0
+Simulate 3-qubit correlations at 0.0 decoherence,6,15,100,500,0.0
+Simulate 6-qubit correlations at 0.02 decoherence,5,8,100,100,0.02
+Simulate 6-qubit Ising model with rate 0.0,6,10,100,100,0.05
+Compute 5 qubit NN proxy with 1000 epochs,5,8,100,1500,0.1
+Visualize 3 qubit SHAP analysis over 5 units,3,5,100,2000,0.0
+Run 2-qubit chain for 12 time units,6,12,100,100,0.02
+Explore 3 qubit dynamics with 0.1 decoherence for 12 units,3,12,100,1000,0.1
+Model 6-qubit bit-flip channel at 0.08 for 15 time,2,15,100,500,0.1
+Predict 6-qubit observables for 12 time range,5,12,100,500,0.0
+Test 2 qubits superposition for 10 time steps,2,10,100,500,0.08
+Generate data for 3 qubits from t=0 to 15,3,12,100,1000,0.02
+Compute 2 qubit NN proxy with 1000 epochs,2,10,100,1000,0.1
+Explore 3 qubit evolution with 2000 training epochs,3,5,100,100,0.02
+Test 5-qubit quantum dynamics with 0.08 rate,3,15,100,100,0.0
+Generate 2 qubit expectation values from 0 to 5,2,12,100,1500,0.08
+Analyze entanglement in 5 qubits with 0.0 noise,5,12,100,1500,0.0
+Analyze 5 qubits with decoherence 0.0,5,15,100,100,0.05
+Generate 3 qubit expectation values from 0 to 15,3,5,100,1000,0.1
+Analyze entanglement in 3 qubits with 0.08 noise,3,15,100,1000,0.08
+Run 5-qubit chain for 15 time units,3,15,100,2000,0.0
+Generate data for 2 qubits from t=0 to 5,2,8,100,1000,0.02
+Analyze entanglement in 5 qubits with 0.02 noise,5,10,100,1000,0.02
+Analyze 3 qubits with decoherence 0.0,3,5,100,1500,0.08
+Model 5-qubit bit-flip channel at 0.08 for 10 time,3,10,100,1500,0.1
+Explore 3 qubit evolution with 500 training epochs,3,15,100,2000,0.05
+Analyze 6 qubits with decoherence 0.0,6,12,100,100,0.08
+Analyze 2 qubits with decoherence 0.08,2,12,100,100,0.05
+Simulate 3-qubit correlations at 0.1 decoherence,6,12,100,2000,0.1
+Simulate 2-qubit Ising model with rate 0.0,5,10,100,100,0.08
+Run 2 qubits with magnetic field over 15 units,2,15,100,500,0.1
+Model 2 qubit time series for 15 duration,2,10,100,100,0.08
+Test 6-qubit quantum dynamics with 0.05 rate,2,8,100,1500,0.1
+Generate 4 qubit expectation values from 0 to 8,4,15,100,100,0.08
+Explore 4 qubit dynamics with 0.05 decoherence for 12 units,4,12,100,500,0.05
+Simulate 5 qubit entanglement,5,5,100,2000,0.0
+Run 6-qubit chain for 8 time units,6,8,100,500,0.05
+Explore 4 qubit dynamics with 0.02 decoherence for 5 units,4,5,100,500,0.02
+Visualize 3 qubit SHAP analysis over 12 units,3,12,100,500,0.02
+Model 6 qubit time series for 5 duration,6,8,100,100,0.02
+Predict correlation for 3 qubits over 10 time,3,10,100,2000,0.1
+Explore 4 qubit evolution with 1500 training epochs,4,15,100,2000,0.05
+Model 2-qubit bit-flip channel at 0.05 for 5 time,4,5,100,1500,0.0
+Model 3-qubit bit-flip channel at 0.1 for 12 time,5,12,100,1000,0.05
+Generate data for 2 qubits from t=0 to 10,2,5,100,1000,0.1
+Explore 5 qubit dynamics with 0.0 decoherence for 8 units,5,8,100,1500,0.0
+Simulate linear 2-qubit Hamiltonian for 10 time,2,10,100,1000,0.05
+Predict correlation for 4 qubits over 15 time,4,15,100,2000,0.1
+Explore 3 qubit dynamics with 0.02 decoherence for 8 units,3,8,100,1500,0.02
+Simulate 3 qubit entanglement,3,5,100,1500,0.1
+Model 3-qubit bit-flip channel at 0.08 for 5 time,3,5,100,2000,0.08
+Explore 3 qubit evolution with 1000 training epochs,3,8,100,100,0.08
+Visualize 3 qubit SHAP analysis over 8 units,3,8,100,100,0.1
+Run 4 qubits with magnetic field over 10 units,4,10,100,500,0.08
+Simulate linear 6-qubit Hamiltonian for 12 time,5,12,100,2000,0.1
+Simulate 2 qubit entanglement,2,10,100,1000,0.05
+Model 2-qubit bit-flip channel at 0.1 for 5 time,5,5,100,1000,0.1
+Simulate linear 4-qubit Hamiltonian for 12 time,2,12,100,100,0.05
+Predict correlation for 5 qubits over 15 time,5,15,100,1500,0.05
+Analyze 5 qubits with decoherence 0.1,5,15,100,500,0.05
+Generate 4 qubit expectation values from 0 to 12,4,15,100,500,0.05
+Model 4 qubit time series for 5 duration,4,12,100,500,0.1
+Visualize 5 qubit SHAP analysis over 10 units,5,10,100,2000,0.08
+Generate data for 3 qubits from t=0 to 8,3,8,100,2000,0.0
+Simulate 6-qubit Ising model with rate 0.05,5,15,100,1000,0.0
+Predict 5-qubit observables for 8 time range,4,8,100,500,0.02
+Simulate 2-qubit Ising model with rate 0.1,4,12,100,500,0.02
+Compute 2 qubit NN proxy with 500 epochs,2,8,100,100,0.05
+Generate 3 qubit expectation values from 0 to 5,3,15,100,2000,0.1
+Explore 6 qubit evolution with 1500 training epochs,6,10,100,2000,0.02
+Test 3-qubit quantum dynamics with 0.08 rate,6,12,100,500,0.02
+Test 3 qubits superposition for 5 time steps,3,5,100,500,0.08
+Test 3 qubits superposition for 15 time steps,3,15,100,1000,0.02
+Generate data for 3 qubits from t=0 to 5,3,15,100,1000,0.08
+Predict 6-qubit observables for 15 time range,3,15,100,500,0.05
+Predict 3-qubit observables for 12 time range,5,12,100,1000,0.1
+Test 4 qubits superposition for 15 time steps,4,15,100,1000,0.08
+Model 5-qubit bit-flip channel at 0.05 for 5 time,6,5,100,1500,0.02
+Model 4-qubit bit-flip channel at 0.1 for 10 time,3,10,100,500,0.05
+Explore 3 qubit dynamics with 0.08 decoherence for 8 units,3,8,100,1000,0.08
+Generate 2 qubit expectation values from 0 to 12,2,15,100,100,0.05
+Generate data for 5 qubits from t=0 to 12,5,8,100,1000,0.08
+Run 5 qubits with magnetic field over 5 units,5,5,100,1500,0.0
+Run 5 qubits with magnetic field over 15 units,5,15,100,1000,0.0
+Test 5 qubits superposition for 8 time steps,5,8,100,1500,0.1
+Explore 2 qubit evolution with 1500 training epochs,2,8,100,1500,0.0
+Simulate 5-qubit Ising model with rate 0.1,4,8,100,100,0.05
+Run 5-qubit chain for 8 time units,2,8,100,500,0.02
+Predict 4-qubit observables for 10 time range,2,10,100,1500,0.02
+Analyze entanglement in 4 qubits with 0.08 noise,4,12,100,2000,0.08
+Analyze 2 qubits with decoherence 0.02,2,5,100,1000,0.02
+Model 3 qubit time series for 8 duration,3,15,100,2000,0.1
+Predict correlation for 6 qubits over 8 time,6,8,100,1000,0.02
+Simulate linear 3-qubit Hamiltonian for 15 time,4,15,100,100,0.02
+Simulate 4-qubit Ising model with rate 0.1,5,15,100,1500,0.0
+Visualize 6 qubit SHAP analysis over 12 units,6,12,100,2000,0.1
+Generate data for 5 qubits from t=0 to 10,5,15,100,2000,0.02
+Compute 2 qubit NN proxy with 100 epochs,2,10,100,1500,0.0
+Analyze entanglement in 4 qubits with 0.02 noise,4,10,100,500,0.02
+Simulate 6-qubit Ising model with rate 0.1,5,8,100,100,0.1
+Explore 5 qubit evolution with 1000 training epochs,5,5,100,2000,0.1
+Compute 3 qubit NN proxy with 1500 epochs,3,15,100,2000,0.0
+Test 5 qubits superposition for 15 time steps,5,15,100,100,0.08
+Model 6-qubit bit-flip channel at 0.1 for 10 time,4,10,100,100,0.05
+Simulate 3-qubit correlations at 0.02 decoherence,2,10,100,500,0.02
+Predict 2-qubit observables for 5 time range,6,5,100,500,0.0
+Run 3 qubits with magnetic field over 10 units,3,10,100,1000,0.02
+Visualize 4 qubit SHAP analysis over 8 units,4,8,100,500,0.02
+Generate 5 qubit expectation values from 0 to 10,5,12,100,100,0.05
+Test 4 qubits superposition for 8 time steps,4,8,100,500,0.0
+Generate data for 4 qubits from t=0 to 8,4,10,100,2000,0.08
+Simulate 6 qubit entanglement,6,12,100,1000,0.0
+Predict 4-qubit observables for 8 time range,3,8,100,1000,0.0
+Run 6-qubit chain for 5 time units,4,5,100,100,0.05
+Generate data for 5 qubits from t=0 to 15,5,12,100,1500,0.08
+Test 6 qubits superposition for 12 time steps,6,12,100,1500,0.08
+Generate 4 qubit expectation values from 0 to 5,4,15,100,1000,0.0
+Simulate 6-qubit Ising model with rate 0.02,5,5,100,1500,0.1
+Analyze entanglement in 5 qubits with 0.08 noise,5,15,100,1000,0.08
+Analyze 3 qubits with decoherence 0.05,3,5,100,1000,0.05
+Run 3-qubit chain for 10 time units,4,10,100,2000,0.08
+Analyze entanglement in 2 qubits with 0.02 noise,2,12,100,1000,0.02
+Model 3-qubit bit-flip channel at 0.0 for 5 time,2,5,100,2000,0.08
+Visualize 6 qubit SHAP analysis over 15 units,6,15,100,100,0.08
+Predict correlation for 5 qubits over 10 time,5,10,100,500,0.0
+Simulate 6-qubit correlations at 0.08 decoherence,3,15,100,1500,0.08
+Model 2 qubit time series for 12 duration,2,5,100,500,0.05
+Model 2-qubit bit-flip channel at 0.02 for 5 time,4,5,100,2000,0.0
+Test 2-qubit quantum dynamics with 0.1 rate,6,8,100,1500,0.05
+Simulate 5-qubit Ising model with rate 0.08,4,12,100,100,0.1
+Simulate 6-qubit Ising model with rate 0.08,3,15,100,1000,0.08
+Explore 4 qubit evolution with 1000 training epochs,4,10,100,500,0.0
+Visualize 5 qubit SHAP analysis over 15 units,5,15,100,1500,0.1
+Run 4-qubit chain for 10 time units,5,10,100,100,0.05
+Run 6 qubits with magnetic field over 5 units,6,5,100,500,0.1
+Analyze entanglement in 2 qubits with 0.1 noise,2,12,100,500,0.1
+Model 5 qubit time series for 12 duration,5,5,100,1500,0.02
+Model 6-qubit bit-flip channel at 0.05 for 8 time,5,8,100,1000,0.05
+Explore 2 qubit evolution with 500 training epochs,2,15,100,2000,0.05
+Simulate 4-qubit Ising model with rate 0.0,4,8,100,500,0.05
+Predict correlation for 3 qubits over 12 time,3,12,100,100,0.02
+Model 5-qubit bit-flip channel at 0.08 for 12 time,3,12,100,1500,0.0
+Predict 6-qubit observables for 8 time range,4,8,100,2000,0.05
+Model 6 qubit time series for 8 duration,6,15,100,500,0.1
+Analyze entanglement in 4 qubits with 0.05 noise,4,5,100,1000,0.05
+Visualize 4 qubit SHAP analysis over 15 units,4,15,100,1500,0.08
+Explore 5 qubit dynamics with 0.08 decoherence for 15 units,5,15,100,500,0.08
+Compute 6 qubit NN proxy with 1500 epochs,6,12,100,1500,0.1
+Test 5 qubits superposition for 5 time steps,5,5,100,2000,0.1
+Explore 6 qubit dynamics with 0.05 decoherence for 15 units,6,15,100,1500,0.05
+Predict 2-qubit observables for 15 time range,2,15,100,2000,0.02
+Model 4-qubit bit-flip channel at 0.08 for 15 time,4,15,100,500,0.05
+Generate data for 2 qubits from t=0 to 15,2,10,100,2000,0.05
+Predict correlation for 5 qubits over 8 time,5,8,100,500,0.1
+Simulate linear 5-qubit Hamiltonian for 8 time,4,8,100,1000,0.1
+Analyze entanglement in 6 qubits with 0.02 noise,6,5,100,2000,0.02
+Run 6-qubit chain for 12 time units,6,12,100,500,0.02
+Model 5-qubit bit-flip channel at 0.0 for 10 time,6,10,100,1000,0.1
+Visualize 6 qubit SHAP analysis over 8 units,6,8,100,100,0.0
+Test 4-qubit quantum dynamics with 0.0 rate,6,10,100,500,0.1
+Model 2-qubit bit-flip channel at 0.0 for 15 time,5,15,100,100,0.08
+Compute 5 qubit NN proxy with 500 epochs,5,10,100,1000,0.08
+Generate data for 4 qubits from t=0 to 15,4,12,100,1000,0.08
+Simulate 4-qubit Ising model with rate 0.05,2,5,100,500,0.08
+Predict correlation for 5 qubits over 5 time,5,5,100,1500,0.02
+Run 6 qubits with magnetic field over 10 units,6,10,100,500,0.05
+Simulate 4 qubit entanglement,4,10,100,1500,0.02
+Simulate linear 4-qubit Hamiltonian for 15 time,4,15,100,2000,0.0
+Predict 4-qubit observables for 12 time range,4,12,100,1500,0.0
+Predict correlation for 3 qubits over 15 time,3,15,100,500,0.02
+Predict 4-qubit observables for 15 time range,2,15,100,1000,0.08
+Explore 5 qubit dynamics with 0.08 decoherence for 5 units,5,5,100,500,0.08
+Generate 6 qubit expectation values from 0 to 5,6,15,100,1000,0.02
+Compute 3 qubit NN proxy with 1000 epochs,3,12,100,2000,0.08
+query,num_qubits,max_time,num_points,epochs,decoherence_rate
+Simulate 2 qubits with 0.01 noise for 10 time units under Ising model,2,10,100,500,0.01
+Analyze entanglement in 3-qubit chain with 1200 training steps using depolarizing channel,3,12,100,1200,0.03
+Study 4 qubits evolving 7 time units with amplitude damping rate 0.05,4,7,100,800,0.05
+Optimize fidelity for 5-qubit GHZ state across 2000 epochs with 0.02 decoherence,5,14,100,2000,0.02
+Benchmark 6-qubit Heisenberg simulation with 0.04 noise for 15 steps,6,15,100,1500,0.04
+Visualize 2-qubit bit-flip dynamics over 8 time units at rate 0.06,2,8,100,600,0.06
+Estimate coherence loss for 3 qubits over 5 steps at 0.09 rate,3,5,100,400,0.09
+Evaluate entanglement entropy for 4-qubit chain trained 1000 epochs,4,11,100,1000,0.07
+Run SHAP analysis on 5-qubit circuit with 700 steps at noise 0.08,5,9,100,700,0.08
+Simulate 6 qubits in Ising model for 13 time units with 0.03 decoherence,6,13,100,900,0.03
+"Measure correlation decay in 2-qubit system for 6 steps, 0.02 noise",2,6,100,300,0.02
+Test robustness of 3-qubit variational circuit with 1400 epochs at 0.01 rate,3,10,100,1400,0.01
+Optimize control pulses for 4 qubits over 12 units with 0.05 damping,4,12,100,1600,0.05
+Study energy spectrum in 5-qubit Heisenberg chain with 0.04 noise,5,15,100,1800,0.04
+Analyze fidelity decay for 6-qubit GHZ state at 0.02 decoherence,6,9,100,1500,0.02
+"Simulate 2 qubits through depolarizing channel for 7 units, 0.03 rate",2,7,100,200,0.03
+Visualize 3-qubit teleportation circuit after 800 training epochs,3,11,100,800,0.06
+"Benchmark error correction on 4 qubits with 0.1 decoherence, 600 epochs",4,13,100,600,0.1
+"Run SHAP interpretability on 5-qubit variational circuit, 10 steps",5,10,100,1100,0.05
+Study time evolution of 6 qubits with amplitude damping 0.09,6,8,100,900,0.09
+Evaluate phase transition in 2-qubit Ising model for 15 steps,2,15,100,1700,0.04
+Optimize entanglement in 3-qubit cluster state over 1300 epochs,3,14,100,1300,0.02
+Simulate Bell state fidelity in 4-qubit register under 0.06 noise,4,6,100,400,0.06
+Run SHAP feature importance for 5-qubit QAOA at 1200 epochs,5,12,100,1200,0.07
+Analyze transport in 6-qubit Heisenberg chain for 9 steps,6,9,100,1800,0.05
+Benchmark 2-qubit depolarizing dynamics for 200 epochs,2,8,100,200,0.02
+Visualize probability distribution in 3-qubit Grover circuit,3,15,100,1500,0.08
+Simulate 4-qubit chain with amplitude damping 0.04 for 5 units,4,5,100,700,0.04
+Study coherence time in 5-qubit register over 11 units,5,11,100,900,0.03
+Optimize control on 6 qubits for 10 steps at 0.05 noise,6,10,100,1400,0.05
+Run SHAP explanations for 2-qubit variational optimizer,2,13,100,800,0.01
+Measure entanglement entropy in 3 qubits after 1000 epochs,3,7,100,1000,0.09
+Benchmark fidelity for 4-qubit GHZ state at 0.07 noise,4,14,100,1600,0.07
+Evaluate depolarizing error on 5 qubits for 8 time units,5,8,100,600,0.06
+Analyze 6-qubit bit-flip dynamics across 2000 training steps,6,12,100,2000,0.1
+"Simulate 2-qubit teleportation with 500 epochs, 0.03 noise",2,9,100,500,0.03
+"Study phase coherence in 3-qubit Ising chain, 0.08 rate",3,11,100,1100,0.08
+Visualize error propagation in 4-qubit variational model,4,13,100,700,0.02
+Optimize entanglement in 5-qubit state with 1500 epochs,5,15,100,1500,0.05
+Benchmark time evolution of 6 qubits under depolarizing noise,6,6,100,900,0.04
+Simulate amplitude damping in 2-qubit circuit for 7 units,2,7,100,400,0.07
+"Run SHAP analysis for 3-qubit QAOA circuit, 1300 epochs",3,10,100,1300,0.03
+Evaluate entanglement decay in 4-qubit register at 0.06 rate,4,12,100,1200,0.06
+"Study 5-qubit transport dynamics for 9 steps, 0.02 noise",5,9,100,800,0.02
+Analyze 6-qubit Ising chain evolution across 1800 epochs,6,14,100,1800,0.08
+Visualize probability collapse in 2-qubit Grover search,2,5,100,300,0.05
+Optimize coherence in 3-qubit cluster state for 600 epochs,3,8,100,600,0.04
+Benchmark SHAP features in 4-qubit variational model,4,15,100,1000,0.03
+Simulate 5-qubit entanglement dynamics with 0.01 noise,5,13,100,1400,0.01
+Study 6-qubit depolarizing channel effects at 0.09 rate,6,11,100,1500,0.09
+Evaluate fidelity of 2-qubit GHZ state at 0.02 decoherence,2,6,100,400,0.02
+Run teleportation experiment with 3 qubits for 700 epochs,3,9,100,700,0.07
+Analyze correlation spread in 4-qubit Heisenberg model,4,10,100,1200,0.08
+"Simulate variational optimizer with 5 qubits, 2000 steps",5,15,100,2000,0.05
+Benchmark 6-qubit GHZ decay under amplitude damping,6,7,100,1000,0.06
+Visualize probability amplitudes for 2-qubit Hadamard chain,2,12,100,900,0.04
+Study energy levels in 3-qubit Ising chain for 1100 epochs,3,13,100,1100,0.02
+Optimize fidelity of 4-qubit QAOA with 1500 training steps,4,8,100,1500,0.03
+Evaluate decoherence in 5-qubit system at 0.1 rate,5,14,100,1600,0.1
+Analyze entanglement transfer in 6-qubit register for 10 steps,6,10,100,1800,0.07
+Simulate SHAP sensitivity on 2-qubit variational ansatz,2,15,100,800,0.01
+Benchmark teleportation in 3-qubit chain with 0.06 noise,3,11,100,600,0.06
+Study bit-flip error propagation in 4 qubits for 9 units,4,9,100,900,0.05
+Run Heisenberg evolution on 5 qubits across 1700 epochs,5,13,100,1700,0.09
+Visualize state collapse in 6-qubit Grover algorithm,6,6,100,1200,0.08
+Simulate 2-qubit entanglement entropy for 1400 training steps,2,7,100,1400,0.04
+Optimize error correction on 3-qubit circuit at 0.03 decoherence,3,10,100,1000,0.03
+Analyze depolarizing noise effects in 4-qubit chain,4,15,100,1500,0.07
+Study QAOA optimization with 5 qubits and 1300 epochs,5,12,100,1300,0.02
+Evaluate dynamics of 6-qubit variational model under 0.08 rate,6,8,100,2000,0.08
+Simulate 2-qubit transport properties for 300 epochs,2,5,100,300,0.05
+Benchmark entanglement entropy in 3-qubit register at 0.07,3,12,100,700,0.07
+Run SHAP interpretability on 4-qubit optimizer for 900 epochs,4,14,100,900,0.01
+"Visualize coherence decay in 5-qubit GHZ state, 0.04 noise",5,11,100,1000,0.04
+Simulate bit-flip channel in 6-qubit circuit for 7 units,6,7,100,1600,0.06
+Study entanglement spread in 2-qubit Heisenberg chain,2,9,100,500,0.03
+Optimize transport fidelity in 3-qubit system with 0.02 noise,3,13,100,800,0.02
+Benchmark correlation functions in 4-qubit Ising chain,4,8,100,1200,0.05
+Run amplitude damping dynamics on 5 qubits for 1500 epochs,5,15,100,1500,0.09
+Analyze decoherence rate 0.1 in 6-qubit GHZ preparation,6,10,100,1800,0.1
+Simulate fidelity loss in 2-qubit teleportation with 0.05 noise,2,6,100,400,0.05
+Visualize entanglement transfer in 3-qubit cluster state,3,11,100,700,0.08
+Evaluate bit-flip noise in 4-qubit register for 1300 steps,4,13,100,1300,0.06
+Study transport in 5-qubit variational model across 1000 epochs,5,7,100,1000,0.04
+Optimize entanglement generation in 6-qubit QAOA with 2000 epochs,6,12,100,2000,0.02
+Run SHAP sensitivity on 2-qubit Grover algorithm for 900 epochs,2,14,100,900,0.03
+Analyze phase transition in 3-qubit Ising chain for 0.09 noise,3,15,100,1500,0.09
+Benchmark 4-qubit Heisenberg simulation with 0.07 decoherence,4,10,100,1400,0.07
+Study amplitude damping in 5-qubit chain at rate 0.06,5,5,100,600,0.06
+Simulate correlation dynamics in 6-qubit register for 1700 steps,6,9,100,1700,0.08
+Optimize GHZ preparation on 2 qubits with 0.01 noise,2,8,100,300,0.01
+Evaluate SHAP analysis for 3-qubit variational model,3,12,100,1200,0.04
+Visualize state collapse in 4-qubit teleportation protocol,4,11,100,800,0.02
+Simulate entanglement entropy in 5-qubit GHZ for 1100 steps,5,13,100,1100,0.05
+Study decoherence effects in 6-qubit circuit at 0.1 rate,6,15,100,2000,0.1
+query,label,10,100,1000,0.0
+"Simulate 2 quibits with 0.03 dechoerence for 10 units, 500 epocs",valid,10,100,1000,0.0
+Run 3-qubit Heisenberg chain with 0.05 Lindblad operators for 12 evolution steps and 1000 epochs,valid,10,100,1000,0.0
+4 qubits Ising model noise=0.02 time=7 steps training=1200,4,5,100,1000,0.0
+Optimize fidelity of 5-qubit GHZ prep under 0.01 noise for 2000 epochs at 15 steps,valid,10,100,1000,0.01
+Analyze 6 quibits entanglment spread over 9 time units with deco=0.04 and 800 epocs,valid,9,100,1000,0.0
+"Teleportation test on 2-qubit system: 13 steps, deco=0.06, 700 epochs",valid,10,100,1000,0.0
+Qubit simulation: n=3? time=4? or both 4??,invalid,10,100,1000,0.0
+Run SHAP interpretability on 4-quibit VQE circuit with 0.05 damping for 11 units,valid,11,100,1000,0.0
+Benchmark 5 qubits amplitude damping channel (0.03) for 1000 epocs at t=8,5,10,100,1000,0.0
+"6-quibit bit flip error model for 15 timesteps and 1500 epochs, deco=0.09",valid,15,100,1000,0.0
+"Check correlation fucntions in 2 quibits, 0.07 decohrence, 5 timesteps, 400 epochs",valid,5,100,1000,0.07
+3 qubits with 'very small noise'?? epochs unknown,3,10,100,1000,0.0
+"Study variational 4-qubit QAOA optimizer, 0.02 deco, 13 time units, 1300 epochs",valid,13,100,1000,0.02
+"Ising 5 qubits: 7 time units, 0.04 Lindblad dephasing, 1700 training steps",5,7,100,1000,0.0
+"Visualize 6-qubit Grover alg for 9 units, 0.08 noise, 1100 epochs",valid,9,100,1000,0.08
+"2-qubit Heisenberg sim: 10 units, deco=0.03, 600 epoches",valid,10,100,1000,0.0
+"3 quibit transport analysis: 14 steps, 0.05 noise, 900 epcs",valid,10,100,1000,0.05
+Run 4 qubits with decohrence=banana??,4,10,100,1000,0.0
+"5-qubit entanglement entropy measure: 8 steps, 0.02 noise, 1500 epochs",valid,10,100,1000,0.02
+"6 qubits QAOA variational circuit with 0.06 noise, 12 steps, 2000 epocs",6,10,100,1000,0.06
+Entanglement 2 qubits?? 20 epochs only??,2,10,100,1000,0.0
+"3 qubit amplitude damping sim with 0.09 deco, 6 units, 300 epochs",3,6,100,1000,0.09
+"Optimize control pulses for 4 quibits with 0.07 noise over 11 steps, 1600 epocs",valid,10,100,1000,0.07
+"Study 5-qubit Heisenberg energy spectrum at 14 units, 0.02 deco, 1800 training steps",valid,14,100,1000,0.02
+"6-quibit depolarising channel test, 7 units, 0.05 noise, 1000 epchs",valid,7,100,1000,0.05
+Simulate 2 qubits with missing noise param,2,10,100,1000,0.0
+"Analyze 3-qubit SHAP feature importances with 0.01 deco, 9 units, 1200 epochs",valid,9,100,1000,0.01
+"Benchmark 4-qubit teleportation, 0.03 noise, 13 timesteps, 700 epocs",valid,13,100,1000,0.03
+Qubit chain: 5?? or 15?? not sure,invalid,10,100,1000,0.0
+"Simulate 6 qubits with 0.1 noise at 15 units, 2000 epochs in Ising chain",6,15,100,1000,0.1
+"2-qubit GHZ prep with 0.04 decho, 8 steps, 500 epochs",valid,10,100,1000,0.0
+"Transport in 3 qubits (Heisenberg), 12 time units, deco=0.03, 900 epochs",3,12,100,1000,0.0
+4 qubits with epoc=abc??,4,10,100,1000,0.0
+"Optimize 5 quibits cluster state with 0.05 noise, 10 units, 1400 epoches",valid,10,100,1000,0.05
+"6-qubit QAOA sim with Lindblad ops=3, deco=0.07, 13 steps, 1800 epochs",valid,10,100,1000,0.0
+"2 qubits amplitude damping at 9 units, 0.02 noise, 400 epochs",2,9,100,1000,0.02
+"Study entglmnt growth in 3 quibits over 15 steps, deco=0.08, 1200 epocs",valid,10,100,1000,0.0
+"Run SHAP analysis on 4-qubit Grover circuit with 0.01 noise, 6 units, 1000 epochs",valid,6,100,1000,0.01
+5 qubits Heisenberg vs Ising?? pick one??,5,10,100,1000,0.0
+"Benchmark fidelity of 6-quibit GHZ at 0.03 noise, 11 units, 1500 epoches",valid,11,100,1000,0.03
+"Simulate 2 qubits depolar noise=0.06 for 7 timesteps, 200 epochs",2,7,100,1000,0.0
+"3-qubit Lindblad dephasing with 0.02 noise for 10 steps, 900 epochs",valid,10,100,1000,0.02
+Teleportation protocol 4 qubits?? time missing,4,10,100,1000,0.0
+"5 quibits variational sim with 0.09 noise, 15 steps, 1700 epoches",valid,10,100,1000,0.09
+"Run 6 qubits amplitude damping at 0.04, 12 units, 1900 epochs",6,12,100,1000,0.0
+Entanglement test: 2 or 3 qubits?? 5 steps?? unclear,3,10,100,1000,0.0
+"Optimize QAOA with 4 qubits, 0.06 deco, 14 time units, 1500 epcs",4,14,100,1000,0.06
+"Study 5-qubit Ising chain 8 steps, 0.02 noise, 1300 epochs",valid,10,100,1000,0.02
+"6-qubit transport dynamics with 0.07 noise, 10 steps, 1600 epochs",valid,10,100,1000,0.07
+query,num_qubits,max_time,num_points,epochs,decoherence_rate
+"Hey, simulate two qubits with no deco for ten units and about five hundred epochs",2,10,100,500,0.0
+"Um, can you run three qubits with like point oh five noise over twelve time steps and twelve hundred epochs",3,12,100,1200,0.05
+"Alright, set up a four qubit Ising thing, ten units, zero point zero two decoherence, eight hundred epochs",4,10,100,800,0.02
+"So, yeah, do five qubits with tiny noise, maybe zero point zero one, for fourteen units and two thousand epochs",5,14,100,2000,0.01
+"Could you, uh, try six qubits with about zero point zero four decoherence for nine time units and a thousand epochs",6,9,100,1000,0.04
+"Hey app, simulate two qubits, zero point zero six noise, just seven steps, six hundred epochs",2,7,100,600,0.06
+"Like, run three qubits with point zero nine deco, only five units, four hundred epochs",3,5,100,400,0.09
+"Okay, let’s try four qubits, amplitude damping, zero point zero seven noise, eleven steps, one thousand epochs",4,11,100,1000,0.07
+"Yo, can you analyze five qubits, zero point zero eight deco, nine units, seven hundred training epochs",5,9,100,700,0.08
+"Uh yeah, do six qubits, Ising model, deco point zero three, thirteen time units, nine hundred epochs",6,13,100,900,0.03
+"Hey, just run two qubits, six steps, point zero two noise, three hundred epochs",2,6,100,300,0.02
+"So, um, three qubits with a little noise like point zero one, ten units, fourteen hundred epochs",3,10,100,1400,0.01
+"Right, run four qubits, zero point zero five deco, twelve steps, sixteen hundred epochs",4,12,100,1600,0.05
+"Hey there, simulate five qubits, zero point zero four noise, fifteen units, eighteen hundred epochs",5,15,100,1800,0.04
+"Uh, yeah, six qubits with like two percent noise, nine steps, fifteen hundred epochs",6,9,100,1500,0.02
+"Hey, do two qubits with point zero three noise, seven units, two hundred epochs",2,7,100,200,0.03
+"So, could you train three qubits, point zero six deco, eleven steps, eight hundred epochs",3,11,100,800,0.06
+"Alright, try four qubits, noise point one, thirteen units, six hundred epochs",4,13,100,600,0.1
+"Yeah, let’s run five qubits, point zero five noise, ten steps, eleven hundred epochs",5,10,100,1100,0.05
+"Hey, six qubits, amplitude damping, nine steps, point zero nine noise, nine hundred epochs",6,9,100,900,0.09
+"Um, can you test two qubits, fifteen units, four percent deco, seventeen hundred epochs",2,15,100,1700,0.04
+"Like, simulate three qubits, cluster state, zero point zero two noise, fourteen steps, thirteen hundred epochs",3,14,100,1300,0.02
+"Yeah, four qubits with point zero six deco, six steps, four hundred epochs",4,6,100,400,0.06
+"Okay app, try five qubits, depolarizing, twelve steps, point zero seven noise, twelve hundred epochs",5,12,100,1200,0.07
+"So, run six qubits, Heisenberg model, nine steps, point zero five deco, eighteen hundred epochs",6,9,100,1800,0.05
+"Hey, could you do two qubits, seven steps, zero point zero two noise, two hundred epochs",2,7,100,200,0.02
+"Uh, try three qubits, teleportation, eleven steps, point zero eight deco, eight hundred epochs",3,11,100,800,0.08
+"Okay, four qubits with zero point one noise, thirteen units, six hundred epochs",4,13,100,600,0.1
+"Yeah, simulate five qubits, zero point zero five deco, ten steps, twelve hundred epochs",5,10,100,1200,0.05
+"Hey, six qubits, depolarizing channel, twelve steps, point zero seven noise, two thousand epochs",6,12,100,2000,0.07
+"Right, just two qubits, Ising thing, nine steps, zero point zero four noise, five hundred epochs",2,9,100,500,0.04
+"So, um, three qubits, amplitude damping, eleven units, point zero eight deco, eleven hundred epochs",3,11,100,1100,0.08
+"Yo, four qubits, teleportation sim, twelve steps, point zero three noise, seven hundred epochs",4,12,100,700,0.03
+"Like, run five qubits, cluster state, nine steps, point zero two deco, eight hundred epochs",5,9,100,800,0.02
+"Hey, six qubits, Ising chain, fourteen units, point zero eight noise, eighteen hundred epochs",6,14,100,1800,0.08
+"Alright, do two qubits with zero point zero five deco, five steps, three hundred epochs",2,5,100,300,0.05
+"Yeah, three qubits, entanglement analysis, fifteen units, point zero nine noise, seven hundred epochs",3,15,100,700,0.09
+"Hey, four qubits, Ising, seven steps, point zero seven deco, nine hundred epochs",4,7,100,900,0.07
+"Um, simulate five qubits with zero point zero one noise, eleven steps, a thousand epochs",5,11,100,1000,0.01
+"So, six qubits, amplitude damping, ten units, point zero six deco, fourteen hundred epochs",6,10,100,1400,0.06
+"Like, do two qubits, Grover circuit, eight units, point zero four deco, four hundred epochs",2,8,100,400,0.04
+"Right, three qubits, depolarizing, thirteen steps, zero point zero two noise, thirteen hundred epochs",3,13,100,1300,0.02
+"Hey, four qubits, transport sim, nine steps, point zero five deco, sixteen hundred epochs",4,9,100,1600,0.05
+"Yo, five qubits, amplitude damping, fourteen steps, point zero three noise, fourteen hundred epochs",5,14,100,1400,0.03
+"Uh, six qubits with point zero nine deco, eleven units, nineteen hundred epochs",6,11,100,1900,0.09
+"Hey app, two qubits, ten steps, zero point zero one noise, five hundred epochs",2,10,100,500,0.01
+"So, run three qubits, Heisenberg model, seven units, point zero six deco, nine hundred epochs",3,7,100,900,0.06
+"Okay, four qubits, fifteen units, zero point zero four noise, a thousand epochs",4,15,100,1000,0.04
+"Yeah, simulate five qubits, depolarizing channel, eight steps, point zero two deco, eleven hundred epochs",5,8,100,1100,0.02
+"Like, six qubits with point zero one noise, thirteen steps, fifteen hundred epochs",6,13,100,1500,0.01

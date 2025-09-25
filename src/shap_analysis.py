@@ -1,4 +1,3 @@
-# src/shap_analysis.py
 import shap
 import matplotlib.pyplot as plt
 import io
@@ -6,24 +5,29 @@ import base64
 import numpy as np
 import torch
 
+
 def generate_shap_and_plot(model, times, quantum_data, predicted, losses, final_mse, num_qubits, decoherence_rate):
     try:
         # Normalize times for SHAP
         times_normalized = times / times.max()
         subset_size = min(10, len(times))  # Smaller for stability
-        background = torch.tensor(times_normalized[:subset_size].reshape(-1, 1), dtype=torch.float32)
+        background = torch.tensor(
+            times_normalized[:subset_size].reshape(-1, 1), dtype=torch.float32)
 
         # Use KernelExplainer for robustness
         def model_predict(inputs):
             with torch.no_grad():
                 return model(torch.tensor(inputs, dtype=torch.float32)).numpy()
 
-        explainer = shap.KernelExplainer(model_predict, times_normalized[:subset_size].reshape(-1, 1))
-        shap_values = explainer.shap_values(times_normalized[:subset_size].reshape(-1, 1), nsamples=100)
+        explainer = shap.KernelExplainer(
+            model_predict, times_normalized[:subset_size].reshape(-1, 1))
+        shap_values = explainer.shap_values(
+            times_normalized[:subset_size].reshape(-1, 1), nsamples=100)
 
         # SHAP plot: Pass 2D features to fix 'tuple index out of range'
         shap_fig = plt.figure(figsize=(6, 4))
-        shap.summary_plot(shap_values, times[:subset_size].reshape(-1, 1), feature_names=["Time"], show=False)
+        shap.summary_plot(
+            shap_values, times[:subset_size].reshape(-1, 1), feature_names=["Time"], show=False)
         shap_buf = io.BytesIO()
         shap_fig.savefig(shap_buf, format='png', bbox_inches='tight')
         shap_buf.seek(0)
@@ -58,5 +62,13 @@ def generate_shap_and_plot(model, times, quantum_data, predicted, losses, final_
 
         plt.tight_layout()
         return fig
+
     except Exception as e:
-        raise RuntimeError(f"SHAP or plotting failed: {str(e)}")
+        logger.error(f"SHAP failed: {str(e)}")
+        # Fallback plot
+        fig, ax = plt.subplots()
+        ax.plot(times, quantum_data, label="True")
+        ax.plot(times, predicted, label="NN")
+        ax.set_title(f"Prediction (MSE: {final_mse:.4f})")
+        ax.legend()
+        return fig
