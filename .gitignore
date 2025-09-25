@@ -1,69 +1,102 @@
-# Python virtual environment
-quantum_xai_env/
-env/
-venv/
-
-# Byte-compiled / cache files
+# ----------------------
+# Python
+# ----------------------
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Byte-compiled / optimized / DLL files
+*.dll
+*.o
+*.a
+*.out
+*.class
 
-# Logs and system files
+# ----------------------
+# Virtual Environments
+# ----------------------
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+quantum_xai_env/
+
+# ----------------------
+# Jupyter / IPython
+# ----------------------
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# ----------------------
+# Logs & Databases
+# ----------------------
 *.log
+*.sql
+*.sqlite
+*.db
+
+# ----------------------
+# Data / Datasets
+# ----------------------
+data/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.pkl
+*.joblib
+
+# ----------------------
+# IDE / Editor
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
 *.DS_Store
 Thumbs.db
 
-# Output figures and model files
-figures/*.png
-*.pdf
-*.svg
-
-# SHAP explainer outputs
-shap_values/
-explainer.pkl
-
-# PyTorch model checkpoints
-*.pt
-*.pth
-
-# VSCode and IDE configs (optional)
-.vscode/
-.idea/
-
-# Environment and dependency files
+# ----------------------
+# Build / Distribution
+# ----------------------
+build/
+dist/
 *.egg-info/
-.Python
-*.env
-
-# Testing and coverage
-.coverage
+*.whl
+pip-wheel-metadata/
 htmlcov/
-.cache/
-pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+cython_debug/
 
-# OS / shell specific
-*.swp
-*.bak
-*.tmp
+# ----------------------
+# Environment / Secrets
+# ----------------------
+*.env
+.env.*
+*.credentials
+*.json
 
-# Hugging Face / Transformers cache
-~/.cache/huggingface/
-.cache/huggingface/
-transformers_cache/
-tokenizers_cache/
-
-# Whisper audio outputs (if using voice input)
-*.wav
-*.mp3
-*.flac
-*.m4a
-
-# Ignore secrets or credentials (you should not have these in your repo, but if you do...)
-.env
-.secret
-*.key
-*.pem
+# ----------------------
+# OS Files
+# ----------------------
+.DS_Store
+Thumbs.db
