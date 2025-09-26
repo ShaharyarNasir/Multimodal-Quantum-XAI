@@ -48,7 +48,10 @@ quantum_xai_env/
 # ----------------------
 # Data / Datasets
 # ----------------------
-data/
+data/*
+!data/.gitkeep
+!data/example.csv
+
 *.csv
 *.tsv
 *.parquet
