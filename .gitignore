@@ -1,6 +1,4 @@
-# ----------------------
 # Python
-# ----------------------
 __pycache__/
 *.py[cod]
 *.pyo
@@ -9,19 +7,8 @@ __pycache__/
 *.egg
 *.egg-info/
 .eggs/
-*.manifest
-*.spec
 
-# Byte-compiled / optimized / DLL files
-*.dll
-*.o
-*.a
-*.out
-*.class
-
-# ----------------------
 # Virtual Environments
-# ----------------------
 .env
 .venv
 env/
@@ -29,52 +16,46 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-quantum_xai_env/
 
-# ----------------------
-# Jupyter / IPython
-# ----------------------
+# Jupyter
 .ipynb_checkpoints
 *.ipynb_checkpoints
 
-# ----------------------
-# Logs & Databases
-# ----------------------
+# Logs
 *.log
-*.sql
-*.sqlite
-*.db
+data/logs/*
 
-# ----------------------
-# Data / Datasets
-# ----------------------
-data/*
+# Large Data Files
+data/model/*
+data/processed_dataset/*
+data/*.tar.gz
+data/*.arrow
+data/*.safetensors
+
+# Keep Essential CSVs
+!data/queries.csv
+!data/queries_fixed.csv
 !data/.gitkeep
-!data/example.csv
 
-*.csv
-*.tsv
-*.parquet
-*.h5
-*.pkl
-*.joblib
+# Caches
+*.cache
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
 
-# ----------------------
-# IDE / Editor
-# ----------------------
+# IDE/OS
 .vscode/
 .idea/
 *.swp
 *.swo
-*.DS_Store
+.DS_Store
 Thumbs.db
 
-# ----------------------
-# Build / Distribution
-# ----------------------
+# Build
 build/
 dist/
-*.egg-info/
 *.whl
 pip-wheel-metadata/
 htmlcov/
@@ -82,24 +63,7 @@ htmlcov/
 .nox/
 .coverage
 .coverage.*
-.cache
-.pytest_cache/
-.mypy_cache/
-.dmypy.json
-.pyre/
-.pytype/
-cython_debug/
 
-# ----------------------
-# Environment / Secrets
-# ----------------------
+# Environment/Secrets
 *.env
-.env.*
 *.credentials
-*.json
-
-# ----------------------
-# OS Files
-# ----------------------
-.DS_Store
-Thumbs.db
